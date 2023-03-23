@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: #3d2514;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* ===HEADER SECTION START=== */
+
+header {
+  padding-top: 40px;
+  width: 100%;
+  height: 100vh;
+  background: url(./images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo img {
+  width: 263px;
+  height: 58px;
+}
+
+.delivery__contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.delivery__contact img {
+  width: 50px;
+  height: 36px;
+}
+
+.delivery__contact P {
+  color: #3d2514;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Bebas Neue", cursive;
+  font-size: 21px;
+  color: #3d2514;
+  margin-left: 48px;
+  letter-spacing: 4px;
+}
+
+.header__content .header__para {
+  font-size: 24px;
+  font-family: "Bebas Neue", cursive;
+  width: fit-content;
+  border: 3px dashed #3d2514;
+  padding: 4px 8px;
+}
+
+.header__content .header__one {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 114px;
+  text-shadow: 3px 5px 0 #fff;
+}
+
+.header__content .header__two {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 56px;
+  text-shadow: 3px 5px 0 #fff;
+}
+
+/* ===HEADER SECTION END=== */
+
+/* ===FOOD SECTION START=== */
+
+#food {
+  padding-top: 78px;
+}
+
+.food__btn {
+  display: block;
+  margin: 0 auto;
+
+  border: none;
+  outline: none;
+  padding: 6px 24px;
+  margin-top: 78px;
+  margin-bottom: 36px;
+  background: #ffc045;
+  color: #3d2514;
+
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+/* ===FOOD SECTION END=== */
+
+/* ===CHOOSE SECTION START=== */
+
+#choose {
+  padding-bottom: 78px;
+}
+
+.choose__title {
+  font-size: 50px;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.choose__card img {
+  margin: 0 auto;
+}
+
+.choose__card h2 {
+  font-size: 38px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 16px;
+}
+
+.choose__title__p {
+  margin-bottom: 60px;
+}
+
+.choose__btn {
+  background: #bf2222;
+  color: #fff;
+
+  font-family: "Alfa Slab One", cursive;
+  border: none;
+  outline: none;
+  padding: 12px 24px 8px;
+  margin-top: 16px;
+}
+
+/* ===CHOOSE SECTION END=== */
+
+/* ===EVENT SECTION START=== */
+
+#event {
+  padding: 50px 0;
+}
+
+#event .row {
+  padding: 20px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.03);
+}
+
+.event__left {
+  padding: 10px;
+}
+
+.event__left h4 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.event__left h2 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 42px;
+}
+
+.event__left p {
+  font-size: 21px;
+  margin-top: 30px;
+}
+
+/* ===EVENT SECTION END=== */
+
+/* ===BOOKING SECTION START=== */
+
+#booking {
+  padding: 78px 0 120px;
+  position: relative;
+}
+
+.booking__sub__title {
+  font-size: 29px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.booking__title {
+  font-size: 50px;
+  font-family: "Alfa Slab One", cursive;
+}
+
+#booking input {
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+::placeholder {
+  color: #3d2514;
+  font-size: 21px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.booking__btn {
+  background: #bf2222;
+  color: #fff;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.booking__one {
+  width: 350px;
+  height: 396px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.booking__two {
+  width: 176px;
+  height: 340px;
+  position: absolute;
+  top: 220px;
+  left: 260px;
+}
+
+.booking__three {
+  width: 400px;
+  height: 570px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+/* ===BOOKING SECTION END=== */
+
+/* ===FOOTER SECTION START=== */
+
+footer {
+  padding-top: 80px;
+  background: url(./images/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer__logo img {
+  width: 409px;
+  height: 90px;
+  margin-bottom: 32px;
+}
+
+.location__content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.location__content img {
+  width: 30px;
+  height: auto;
+}
+
+.location__content p {
+  color: #fff;
+  font-size: 21px;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+}
+
+.footer__bottom{
+  margin-top: 120px;
+}
+
+.footer__bottom__para {
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+}
+
+.img__li {
+  display: flex;
+  gap: 8px;
+}
+
+.img__li img {
+  width: 29px;
+  height: 29px;
+}
+/* ===FOOTER SECTION END=== */
